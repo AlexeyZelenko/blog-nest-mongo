@@ -11,5 +11,4 @@ export class Product {
     @Prop()
     price: number
 }
-
 export const ProductSchema = SchemaFactory.createForClass(Product)
