@@ -13,5 +13,6 @@ import { Product, ProductSchema } from './schemas/product.schema'
         ])
     ]
 })
+
 export class ProductsModule {
 }
