@@ -4,6 +4,7 @@ import { ProductsService } from './products.service';
 import { ProductsController } from './products.controller';
 import { Product, ProductSchema } from './schemas/product.schema'
 
+
 @Module({
     providers: [ProductsService],
     controllers: [ProductsController],
